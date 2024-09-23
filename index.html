@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navabar -->
+    <nav class="navbar navbar-expand-sm" id="navbar">
+        <a href="index.html" class="navbar-brand" id="logo"><img src="./assets/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Order</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" placeholder="Search" required>
+                <button type="button" id="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Claim Best Offer <br> On Fast <span>Food</span>& <span>Restaurant</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quibusdam minus. Ea accusamus rem numquam.
+            </p>
+            <a href="#our-menu" id="home-btn">Our Menu</a>
+        </div>
+        <div class="img">
+            <img src="./assets/pic-01.png" alt="">
+        </div>
+    </section>
+
+    <!-- Top Section -->
+    <div class="top-section">
+        <h3 class="text-uppercase">What we serve</h3>
+        <h3 class="text-capitalize">Your favourite food <br> delivery partner</h3>
+
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./assets/pic-02.png" alt="">
+                    <div class="card-body">
+                        <h1 class="text-capitalize">Easy to order</h1>
+                        <p>You only need a few steps in <br>ordering food</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./assets/pic-03.png" alt="">
+                    <div class="card-body">
+                        <h1 class="text-capitalize">Fastest Delivery</h1>
+                        <p>Delivery that is always ontime <br>even faster</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./assets/pic-04.png" alt="">
+                    <div class="card-body">
+                        <h1 class="text-capitalize">Best quality</h1>
+                        <p>Not only fast for us quality is also <br> number one</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Menu -->
+        <section class="menu" id="menu">
+            <h3>Menu</h3>
+            <h2>Delicious Dishes Is Here <i class="fa-solid fa-arrow-down"></i></h2>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/Mangalorean_Chicken.png" alt="">
+                        <div class="card-body">
+                            <h3>M Chicken</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$20 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/Garlic_Fried.png" alt="">
+                        <div class="card-body">
+                            <h3>M Chicken</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$30 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/Grilled_beef_steak.png" alt="">
+                        <div class="card-body">
+                            <h3>Garlic Fried</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$120 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/rice.png" alt="">
+                        <div class="card-body">
+                            <h3>G Beef Steak</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$200 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/Grilled_pork_ribs.png" alt="">
+                        <div class="card-body">
+                            <h3>Fried Rice</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$300 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/crispy_fried.png" alt="">
+                        <div class="card-body">
+                            <h3>Pork Ribs</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$10 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/sushi__japanese.png" alt="">
+                        <div class="card-body">
+                            <h3>Crispy Fried</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$150 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-md-0">
+                    <div class="card">
+                        <img src="./assets/Lyulya_kebab.png" alt="">
+                        <div class="card-body">
+                            <h3>Sushi Japanes</h3>
+                            <h6>Lorem ipsum dolor sit amet.</h6>
+                            <div class="rating">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <p>$250 <i class="fa-solid fa-credit-card"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>
